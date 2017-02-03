@@ -1,0 +1,73 @@
+{
+  "name": "angular_eggly",
+  "version": "1.0.0",
+  "description": "exercise on AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "webpack-dev-server --content-base src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-new-router": "^0.5.3",
+    "angular-route": "^1.6.1",
+    "assert": "^1.4.1",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.14.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.3.3",
+    "cors": "^2.8.1",
+    "debug": "~2.1.1",
+    "method-override": "^2.3.7",
+    "morgan": "~1.5.1",
+    "ng-annotate-webpack-plugin": "^0.2.1-pre",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "~2.2.0",
+    "underscore": "^1.5.2"
+  },
+  "devDependencies": {
+    "angular-formly": "^8.4.1",
+    "angular-mocks": "^1.6.1",
+    "api-check": "^7.5.5",
+    "browserify": "10.2.3",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.13.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-react": "^5.2.2",
+    "file-loader": "^0.9.0",
+    "http-status": "0.1.8",
+    "json-loader": "^0.5.4",
+    "karma": "0.12.16",
+    "karma-chai": "0.1.0",
+    "karma-chrome-launcher": "0.1.4",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha": "0.1.4",
+    "karma-webpack": "^2.0.2",
+    "mocha": "^3.0.2",
+    "ng-annotate-loader": "^0.2.0",
+    "nodemon": "^1.3.7",
+    "underscore": "1.5.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "babel": {
+    "plugins": [
+      "transform-runtime"
+    ],
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  }
+}
